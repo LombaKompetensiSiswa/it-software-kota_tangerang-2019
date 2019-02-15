@@ -1,0 +1,351 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SMKNUNSATAR
+</name>
+</assembly>
+<members>
+<member name="T:SMKNUNSATAR.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:SMKNUNSATAR.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:SMKNUNSATAR.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:SMKNUNSATAR.Menu">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SMKNUNSATAR.Menu.MsmenuDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SMKNUNSATAR.Menu.MsmenuRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SMKNUNSATAR.Menu.MsmenuRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SMKNUNSATAR.MenuTableAdapters.MsmenuTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SMKNUNSATAR.MenuTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SMKNUNSATAR.MenuTableAdapters.TableAdapterManager.UpdateUpdatedRows(SMKNUNSATAR.Menu,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SMKNUNSATAR.MenuTableAdapters.TableAdapterManager.UpdateInsertedRows(SMKNUNSATAR.Menu,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SMKNUNSATAR.MenuTableAdapters.TableAdapterManager.UpdateDeletedRows(SMKNUNSATAR.Menu,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SMKNUNSATAR.MenuTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SMKNUNSATAR.MenuTableAdapters.TableAdapterManager.UpdateAll(SMKNUNSATAR.Menu)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SMKNUNSATAR.MenuTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SMKNUNSATAR.MenuTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:SMKNUNSATAR.Msemployee">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SMKNUNSATAR.Msemployee.MsemployeeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SMKNUNSATAR.Msemployee.MsemployeeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SMKNUNSATAR.Msemployee.MsemployeeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SMKNUNSATAR.MsemployeeTableAdapters.MsemployeeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SMKNUNSATAR.MsemployeeTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SMKNUNSATAR.MsemployeeTableAdapters.TableAdapterManager.UpdateUpdatedRows(SMKNUNSATAR.Msemployee,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SMKNUNSATAR.MsemployeeTableAdapters.TableAdapterManager.UpdateInsertedRows(SMKNUNSATAR.Msemployee,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SMKNUNSATAR.MsemployeeTableAdapters.TableAdapterManager.UpdateDeletedRows(SMKNUNSATAR.Msemployee,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SMKNUNSATAR.MsemployeeTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SMKNUNSATAR.MsemployeeTableAdapters.TableAdapterManager.UpdateAll(SMKNUNSATAR.Msemployee)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SMKNUNSATAR.MsemployeeTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SMKNUNSATAR.MsemployeeTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:SMKNUNSATAR.MsMember">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SMKNUNSATAR.MsMember.MsmemberDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SMKNUNSATAR.MsMember.MsmemberRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SMKNUNSATAR.MsMember.MsmemberRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SMKNUNSATAR.MsMemberTableAdapters.MsmemberTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SMKNUNSATAR.MsMemberTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SMKNUNSATAR.MsMemberTableAdapters.TableAdapterManager.UpdateUpdatedRows(SMKNUNSATAR.MsMember,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SMKNUNSATAR.MsMemberTableAdapters.TableAdapterManager.UpdateInsertedRows(SMKNUNSATAR.MsMember,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SMKNUNSATAR.MsMemberTableAdapters.TableAdapterManager.UpdateDeletedRows(SMKNUNSATAR.MsMember,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SMKNUNSATAR.MsMemberTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SMKNUNSATAR.MsMemberTableAdapters.TableAdapterManager.UpdateAll(SMKNUNSATAR.MsMember)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SMKNUNSATAR.MsMemberTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SMKNUNSATAR.MsMemberTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:SMKNUNSATAR.Msmenu">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SMKNUNSATAR.Msmenu.MsmenuDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SMKNUNSATAR.Msmenu.MsmenuRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SMKNUNSATAR.Msmenu.MsmenuRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SMKNUNSATAR.MsmenuTableAdapters.MsmenuTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SMKNUNSATAR.MsmenuTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SMKNUNSATAR.MsmenuTableAdapters.TableAdapterManager.UpdateUpdatedRows(SMKNUNSATAR.Msmenu,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SMKNUNSATAR.MsmenuTableAdapters.TableAdapterManager.UpdateInsertedRows(SMKNUNSATAR.Msmenu,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SMKNUNSATAR.MsmenuTableAdapters.TableAdapterManager.UpdateDeletedRows(SMKNUNSATAR.Msmenu,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SMKNUNSATAR.MsmenuTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SMKNUNSATAR.MsmenuTableAdapters.TableAdapterManager.UpdateAll(SMKNUNSATAR.Msmenu)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SMKNUNSATAR.MsmenuTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SMKNUNSATAR.MsmenuTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:SMKNUNSATAR.Msmenuorder">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SMKNUNSATAR.Msmenuorder.MsmenuDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SMKNUNSATAR.Msmenuorder.MsmenuRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SMKNUNSATAR.Msmenuorder.MsmenuRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SMKNUNSATAR.MsmenuorderTableAdapters.MsmenuTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SMKNUNSATAR.MsmenuorderTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SMKNUNSATAR.MsmenuorderTableAdapters.TableAdapterManager.UpdateUpdatedRows(SMKNUNSATAR.Msmenuorder,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SMKNUNSATAR.MsmenuorderTableAdapters.TableAdapterManager.UpdateInsertedRows(SMKNUNSATAR.Msmenuorder,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SMKNUNSATAR.MsmenuorderTableAdapters.TableAdapterManager.UpdateDeletedRows(SMKNUNSATAR.Msmenuorder,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SMKNUNSATAR.MsmenuorderTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SMKNUNSATAR.MsmenuorderTableAdapters.TableAdapterManager.UpdateAll(SMKNUNSATAR.Msmenuorder)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SMKNUNSATAR.MsmenuorderTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SMKNUNSATAR.MsmenuorderTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

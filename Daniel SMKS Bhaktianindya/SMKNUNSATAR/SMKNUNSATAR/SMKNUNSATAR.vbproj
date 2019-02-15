@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3B0403A8-42EE-405E-A227-F137769417EE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>SMKNUNSATAR.My.MyApplication</StartupObject>
+    <RootNamespace>SMKNUNSATAR</RootNamespace>
+    <AssemblyName>SMKNUNSATAR</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>SMKNUNSATAR.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>SMKNUNSATAR.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form Order.Designer.vb">
+      <DependentUpon>Form Order.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form Order.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAdminNav.Designer.vb">
+      <DependentUpon>FrmAdminNav.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAdminNav.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCashierNav.Designer.vb">
+      <DependentUpon>FrmCashierNav.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCashierNav.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmChangePass.Designer.vb">
+      <DependentUpon>FrmChangePass.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmChangePass.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmChefNav.Designer.vb">
+      <DependentUpon>FrmChefNav.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmChefNav.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.vb">
+      <DependentUpon>FrmLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmManageEmployee.Designer.vb">
+      <DependentUpon>FrmManageEmployee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmManageEmployee.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmManageMember.Designer.vb">
+      <DependentUpon>FrmManageMember.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmManageMember.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmManageMenu.Designer.vb">
+      <DependentUpon>FrmManageMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmManageMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPayment.Designer.vb">
+      <DependentUpon>FrmPayment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPayment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmViewOrder.Designer.vb">
+      <DependentUpon>FrmViewOrder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmViewOrder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Menu.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="Msemployee.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Msemployee.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MsMember.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MsMember.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Msmenu.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Msmenu.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Msmenuorder.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Msmenuorder.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form Order.resx">
+      <DependentUpon>Form Order.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAdminNav.resx">
+      <DependentUpon>FrmAdminNav.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCashierNav.resx">
+      <DependentUpon>FrmCashierNav.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmChangePass.resx">
+      <DependentUpon>FrmChangePass.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmChefNav.resx">
+      <DependentUpon>FrmChefNav.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmManageEmployee.resx">
+      <DependentUpon>FrmManageEmployee.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmManageMember.resx">
+      <DependentUpon>FrmManageMember.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmManageMenu.resx">
+      <DependentUpon>FrmManageMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPayment.resx">
+      <DependentUpon>FrmPayment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmViewOrder.resx">
+      <DependentUpon>FrmViewOrder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Menu.xsc">
+      <DependentUpon>Menu.xsd</DependentUpon>
+    </None>
+    <None Include="Menu.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Menu.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Menu.xss">
+      <DependentUpon>Menu.xsd</DependentUpon>
+    </None>
+    <None Include="Msemployee.xsc">
+      <DependentUpon>Msemployee.xsd</DependentUpon>
+    </None>
+    <None Include="Msemployee.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Msemployee.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Msemployee.xss">
+      <DependentUpon>Msemployee.xsd</DependentUpon>
+    </None>
+    <None Include="MsMember.xsc">
+      <DependentUpon>MsMember.xsd</DependentUpon>
+    </None>
+    <None Include="MsMember.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MsMember.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MsMember.xss">
+      <DependentUpon>MsMember.xsd</DependentUpon>
+    </None>
+    <None Include="Msmenu.xsc">
+      <DependentUpon>Msmenu.xsd</DependentUpon>
+    </None>
+    <None Include="Msmenu.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Msmenu.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Msmenu.xss">
+      <DependentUpon>Msmenu.xsd</DependentUpon>
+    </None>
+    <None Include="Msmenuorder.xsc">
+      <DependentUpon>Msmenuorder.xsd</DependentUpon>
+    </None>
+    <None Include="Msmenuorder.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Msmenuorder.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Msmenuorder.xss">
+      <DependentUpon>Msmenuorder.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

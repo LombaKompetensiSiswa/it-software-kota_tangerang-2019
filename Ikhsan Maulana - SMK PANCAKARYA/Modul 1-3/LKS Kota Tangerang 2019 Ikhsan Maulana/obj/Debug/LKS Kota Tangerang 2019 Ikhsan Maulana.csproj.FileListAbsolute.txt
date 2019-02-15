@@ -1,0 +1,40 @@
+C:\Users\ADMIN\source\repos\LKS Kota Tangerang 2019 Ikhsan Maulana\LKS Kota Tangerang 2019 Ikhsan Maulana\bin\Debug\LKS Kota Tangerang 2019 Ikhsan Maulana.exe.config
+C:\Users\ADMIN\source\repos\LKS Kota Tangerang 2019 Ikhsan Maulana\LKS Kota Tangerang 2019 Ikhsan Maulana\bin\Debug\LKS Kota Tangerang 2019 Ikhsan Maulana.exe
+C:\Users\ADMIN\source\repos\LKS Kota Tangerang 2019 Ikhsan Maulana\LKS Kota Tangerang 2019 Ikhsan Maulana\bin\Debug\LKS Kota Tangerang 2019 Ikhsan Maulana.pdb
+C:\Users\ADMIN\source\repos\LKS Kota Tangerang 2019 Ikhsan Maulana\LKS Kota Tangerang 2019 Ikhsan Maulana\obj\Debug\LKS Kota Tangerang 2019 Ikhsan Maulana.csprojAssemblyReference.cache
+C:\Users\ADMIN\source\repos\LKS Kota Tangerang 2019 Ikhsan Maulana\LKS Kota Tangerang 2019 Ikhsan Maulana\obj\Debug\LKS_Kota_Tangerang_2019_Ikhsan_Maulana.Form1.resources
+C:\Users\ADMIN\source\repos\LKS Kota Tangerang 2019 Ikhsan Maulana\LKS Kota Tangerang 2019 Ikhsan Maulana\obj\Debug\LKS_Kota_Tangerang_2019_Ikhsan_Maulana.FrmMain.resources
+C:\Users\ADMIN\source\repos\LKS Kota Tangerang 2019 Ikhsan Maulana\LKS Kota Tangerang 2019 Ikhsan Maulana\obj\Debug\LKS_Kota_Tangerang_2019_Ikhsan_Maulana.FrmSplash.resources
+C:\Users\ADMIN\source\repos\LKS Kota Tangerang 2019 Ikhsan Maulana\LKS Kota Tangerang 2019 Ikhsan Maulana\obj\Debug\LKS_Kota_Tangerang_2019_Ikhsan_Maulana.Properties.Resources.resources
+C:\Users\ADMIN\source\repos\LKS Kota Tangerang 2019 Ikhsan Maulana\LKS Kota Tangerang 2019 Ikhsan Maulana\obj\Debug\LKS Kota Tangerang 2019 Ikhsan Maulana.csproj.GenerateResource.cache
+C:\Users\ADMIN\source\repos\LKS Kota Tangerang 2019 Ikhsan Maulana\LKS Kota Tangerang 2019 Ikhsan Maulana\obj\Debug\LKS Kota Tangerang 2019 Ikhsan Maulana.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\LKS Kota Tangerang 2019 Ikhsan Maulana\LKS Kota Tangerang 2019 Ikhsan Maulana\obj\Debug\LKS Kota Tangerang 2019 Ikhsan Maulana.exe
+C:\Users\ADMIN\source\repos\LKS Kota Tangerang 2019 Ikhsan Maulana\LKS Kota Tangerang 2019 Ikhsan Maulana\obj\Debug\LKS Kota Tangerang 2019 Ikhsan Maulana.pdb
+C:\Users\ADMIN\source\repos\LKS Kota Tangerang 2019 Ikhsan Maulana\LKS Kota Tangerang 2019 Ikhsan Maulana\obj\Debug\LKS_Kota_Tangerang_2019_Ikhsan_Maulana.FrmChangePassword.resources
+C:\Users\ADMIN\source\repos\LKS Kota Tangerang 2019 Ikhsan Maulana\LKS Kota Tangerang 2019 Ikhsan Maulana\obj\Debug\LKS_Kota_Tangerang_2019_Ikhsan_Maulana.FrmManageEmployee.resources
+C:\Users\ADMIN\source\repos\LKS Kota Tangerang 2019 Ikhsan Maulana\LKS Kota Tangerang 2019 Ikhsan Maulana\obj\Debug\LKS_Kota_Tangerang_2019_Ikhsan_Maulana.FrmManageMember.resources
+C:\Users\ADMIN\source\repos\LKS Kota Tangerang 2019 Ikhsan Maulana\LKS Kota Tangerang 2019 Ikhsan Maulana\obj\Debug\LKS_Kota_Tangerang_2019_Ikhsan_Maulana.FrmManageMenu.resources
+C:\Users\ADMIN\source\repos\LKS Kota Tangerang 2019 Ikhsan Maulana\LKS Kota Tangerang 2019 Ikhsan Maulana\obj\Debug\LKS_Kota_Tangerang_2019_Ikhsan_Maulana.FrmOrder.resources
+C:\Users\ADMIN\source\repos\LKS Kota Tangerang 2019 Ikhsan Maulana\LKS Kota Tangerang 2019 Ikhsan Maulana\obj\Debug\LKS_Kota_Tangerang_2019_Ikhsan_Maulana.FrmViewOrder.resources
+C:\Users\ADMIN\source\repos\LKS Kota Tangerang 2019 Ikhsan Maulana\LKS Kota Tangerang 2019 Ikhsan Maulana\obj\Debug\LKS_Kota_Tangerang_2019_Ikhsan_Maulana.FrmPayment.resources
+C:\Users\ADMIN\source\repos\LKS Kota Tangerang 2019 Ikhsan Maulana\LKS Kota Tangerang 2019 Ikhsan Maulana\obj\Debug\LKS_Kota_Tangerang_2019_Ikhsan_Maulana.FrmAmountCash.resources
+D:\Ikhsan Maulana - SMK PANCAKARYA\Modul 1-3\LKS Kota Tangerang 2019 Ikhsan Maulana\bin\Debug\LKS Kota Tangerang 2019 Ikhsan Maulana.exe.config
+D:\Ikhsan Maulana - SMK PANCAKARYA\Modul 1-3\LKS Kota Tangerang 2019 Ikhsan Maulana\bin\Debug\LKS Kota Tangerang 2019 Ikhsan Maulana.exe
+D:\Ikhsan Maulana - SMK PANCAKARYA\Modul 1-3\LKS Kota Tangerang 2019 Ikhsan Maulana\bin\Debug\LKS Kota Tangerang 2019 Ikhsan Maulana.pdb
+D:\Ikhsan Maulana - SMK PANCAKARYA\Modul 1-3\LKS Kota Tangerang 2019 Ikhsan Maulana\obj\Debug\LKS Kota Tangerang 2019 Ikhsan Maulana.csprojAssemblyReference.cache
+D:\Ikhsan Maulana - SMK PANCAKARYA\Modul 1-3\LKS Kota Tangerang 2019 Ikhsan Maulana\obj\Debug\LKS_Kota_Tangerang_2019_Ikhsan_Maulana.Form1.resources
+D:\Ikhsan Maulana - SMK PANCAKARYA\Modul 1-3\LKS Kota Tangerang 2019 Ikhsan Maulana\obj\Debug\LKS_Kota_Tangerang_2019_Ikhsan_Maulana.FrmAmountCash.resources
+D:\Ikhsan Maulana - SMK PANCAKARYA\Modul 1-3\LKS Kota Tangerang 2019 Ikhsan Maulana\obj\Debug\LKS_Kota_Tangerang_2019_Ikhsan_Maulana.FrmChangePassword.resources
+D:\Ikhsan Maulana - SMK PANCAKARYA\Modul 1-3\LKS Kota Tangerang 2019 Ikhsan Maulana\obj\Debug\LKS_Kota_Tangerang_2019_Ikhsan_Maulana.FrmMain.resources
+D:\Ikhsan Maulana - SMK PANCAKARYA\Modul 1-3\LKS Kota Tangerang 2019 Ikhsan Maulana\obj\Debug\LKS_Kota_Tangerang_2019_Ikhsan_Maulana.FrmManageEmployee.resources
+D:\Ikhsan Maulana - SMK PANCAKARYA\Modul 1-3\LKS Kota Tangerang 2019 Ikhsan Maulana\obj\Debug\LKS_Kota_Tangerang_2019_Ikhsan_Maulana.FrmManageMember.resources
+D:\Ikhsan Maulana - SMK PANCAKARYA\Modul 1-3\LKS Kota Tangerang 2019 Ikhsan Maulana\obj\Debug\LKS_Kota_Tangerang_2019_Ikhsan_Maulana.FrmManageMenu.resources
+D:\Ikhsan Maulana - SMK PANCAKARYA\Modul 1-3\LKS Kota Tangerang 2019 Ikhsan Maulana\obj\Debug\LKS_Kota_Tangerang_2019_Ikhsan_Maulana.FrmOrder.resources
+D:\Ikhsan Maulana - SMK PANCAKARYA\Modul 1-3\LKS Kota Tangerang 2019 Ikhsan Maulana\obj\Debug\LKS_Kota_Tangerang_2019_Ikhsan_Maulana.FrmPayment.resources
+D:\Ikhsan Maulana - SMK PANCAKARYA\Modul 1-3\LKS Kota Tangerang 2019 Ikhsan Maulana\obj\Debug\LKS_Kota_Tangerang_2019_Ikhsan_Maulana.FrmSplash.resources
+D:\Ikhsan Maulana - SMK PANCAKARYA\Modul 1-3\LKS Kota Tangerang 2019 Ikhsan Maulana\obj\Debug\LKS_Kota_Tangerang_2019_Ikhsan_Maulana.FrmViewOrder.resources
+D:\Ikhsan Maulana - SMK PANCAKARYA\Modul 1-3\LKS Kota Tangerang 2019 Ikhsan Maulana\obj\Debug\LKS_Kota_Tangerang_2019_Ikhsan_Maulana.Properties.Resources.resources
+D:\Ikhsan Maulana - SMK PANCAKARYA\Modul 1-3\LKS Kota Tangerang 2019 Ikhsan Maulana\obj\Debug\LKS Kota Tangerang 2019 Ikhsan Maulana.csproj.GenerateResource.cache
+D:\Ikhsan Maulana - SMK PANCAKARYA\Modul 1-3\LKS Kota Tangerang 2019 Ikhsan Maulana\obj\Debug\LKS Kota Tangerang 2019 Ikhsan Maulana.csproj.CoreCompileInputs.cache
+D:\Ikhsan Maulana - SMK PANCAKARYA\Modul 1-3\LKS Kota Tangerang 2019 Ikhsan Maulana\obj\Debug\LKS Kota Tangerang 2019 Ikhsan Maulana.exe
+D:\Ikhsan Maulana - SMK PANCAKARYA\Modul 1-3\LKS Kota Tangerang 2019 Ikhsan Maulana\obj\Debug\LKS Kota Tangerang 2019 Ikhsan Maulana.pdb

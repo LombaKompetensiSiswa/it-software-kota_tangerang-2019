@@ -1,0 +1,46 @@
+C:\Users\ADMIN\source\repos\Form Login\Form Login\bin\Debug\Form Login.exe
+C:\Users\ADMIN\source\repos\Form Login\Form Login\bin\Debug\Form Login.pdb
+C:\Users\ADMIN\source\repos\Form Login\Form Login\bin\Debug\Form Login.xml
+C:\Users\ADMIN\source\repos\Form Login\Form Login\obj\Debug\Form Login.vbprojAssemblyReference.cache
+C:\Users\ADMIN\source\repos\Form Login\Form Login\obj\Debug\Form_Login.Form1.resources
+C:\Users\ADMIN\source\repos\Form Login\Form Login\obj\Debug\Form_Login.Resources.resources
+C:\Users\ADMIN\source\repos\Form Login\Form Login\obj\Debug\Form Login.vbproj.GenerateResource.cache
+C:\Users\ADMIN\source\repos\Form Login\Form Login\obj\Debug\Form Login.vbproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\Form Login\Form Login\obj\Debug\Form Login.exe
+C:\Users\ADMIN\source\repos\Form Login\Form Login\obj\Debug\Form Login.xml
+C:\Users\ADMIN\source\repos\Form Login\Form Login\obj\Debug\Form Login.pdb
+C:\Users\ADMIN\source\repos\Form Login\Form Login\obj\Debug\Form_Login.Order.resources
+C:\Users\ADMIN\source\repos\Form Login\Form Login\bin\Debug\Microsoft.Data.Tools.Schema.Sql.UnitTesting.dll
+C:\Users\ADMIN\source\repos\Form Login\Form Login\bin\Debug\Microsoft.Data.Tools.Schema.Sql.UnitTestingAdapter.dll
+C:\Users\ADMIN\source\repos\Form Login\Form Login\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\ADMIN\source\repos\Form Login\Form Login\bin\Debug\Microsoft.Build.dll
+C:\Users\ADMIN\source\repos\Form Login\Form Login\bin\Debug\Microsoft.Build.Framework.dll
+C:\Users\ADMIN\source\repos\Form Login\Form Login\bin\Debug\System.Collections.Immutable.dll
+C:\Users\ADMIN\source\repos\Form Login\Form Login\bin\Debug\System.IO.Compression.dll
+C:\Users\ADMIN\source\repos\Form Login\Form Login\bin\Debug\System.Threading.Tasks.Dataflow.dll
+C:\Users\ADMIN\source\repos\Form Login\Form Login\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\ADMIN\source\repos\Form Login\Form Login\bin\Debug\cs\Microsoft.Build.resources.dll
+C:\Users\ADMIN\source\repos\Form Login\Form Login\bin\Debug\de\Microsoft.Build.resources.dll
+C:\Users\ADMIN\source\repos\Form Login\Form Login\bin\Debug\en\Microsoft.Build.resources.dll
+C:\Users\ADMIN\source\repos\Form Login\Form Login\bin\Debug\es\Microsoft.Build.resources.dll
+C:\Users\ADMIN\source\repos\Form Login\Form Login\bin\Debug\fr\Microsoft.Build.resources.dll
+C:\Users\ADMIN\source\repos\Form Login\Form Login\bin\Debug\it\Microsoft.Build.resources.dll
+C:\Users\ADMIN\source\repos\Form Login\Form Login\bin\Debug\ja\Microsoft.Build.resources.dll
+C:\Users\ADMIN\source\repos\Form Login\Form Login\bin\Debug\ko\Microsoft.Build.resources.dll
+C:\Users\ADMIN\source\repos\Form Login\Form Login\bin\Debug\pl\Microsoft.Build.resources.dll
+C:\Users\ADMIN\source\repos\Form Login\Form Login\bin\Debug\pt-BR\Microsoft.Build.resources.dll
+C:\Users\ADMIN\source\repos\Form Login\Form Login\bin\Debug\ru\Microsoft.Build.resources.dll
+C:\Users\ADMIN\source\repos\Form Login\Form Login\bin\Debug\tr\Microsoft.Build.resources.dll
+C:\Users\ADMIN\source\repos\Form Login\Form Login\bin\Debug\zh-Hans\Microsoft.Build.resources.dll
+C:\Users\ADMIN\source\repos\Form Login\Form Login\bin\Debug\zh-Hant\Microsoft.Build.resources.dll
+C:\Users\ADMIN\source\repos\Form Login\Form Login\obj\Debug\Form Login.vbproj.CopyComplete
+C:\Users\ADMIN\source\repos\Form Login\Form Login\obj\Debug\Form_Login.Form2.resources
+C:\Users\ADMIN\source\repos\Form Login\Form Login\obj\Debug\Form_Login.Form3.resources
+C:\Users\ADMIN\source\repos\Form Login\Form Login\obj\Debug\Form_Login.Form8.resources
+C:\Users\ADMIN\source\repos\Form Login\Form Login\obj\Debug\Form_Login.Form4.resources
+C:\Users\ADMIN\source\repos\Form Login\Form Login\obj\Debug\Form_Login.Form6.resources
+C:\Users\ADMIN\source\repos\Form Login\Form Login\obj\Debug\Form_Login.Form5.resources
+C:\Users\ADMIN\source\repos\Form Login\Form Login\obj\Debug\Form_Login.Form7.resources
+C:\Users\ADMIN\source\repos\Form Login\Form Login\obj\Debug\Form_Login.Form11.resources
+C:\Users\ADMIN\source\repos\Form Login\Form Login\obj\Debug\Form_Login.Form10.resources
+C:\Users\ADMIN\source\repos\Form Login\Form Login\bin\Debug\Form Login.exe.config

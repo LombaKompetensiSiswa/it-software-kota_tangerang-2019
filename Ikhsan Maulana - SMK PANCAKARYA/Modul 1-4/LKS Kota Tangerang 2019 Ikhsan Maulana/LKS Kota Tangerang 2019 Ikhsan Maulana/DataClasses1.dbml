@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="LKS Kota Tangerang 2019" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.\;Initial Catalog=&quot;LKS Kota Tangerang 2019&quot;;Integrated Security=True" SettingsObjectName="LKS_Kota_Tangerang_2019_Ikhsan_Maulana.Properties.Settings" SettingsPropertyName="LKS_Kota_Tangerang_2019ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Detailorder" Member="Detailorders">
+    <Type Name="Detailorder">
+      <Column Name="Detailid" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Orderid" Type="System.String" DbType="NChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="Menuid" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Qty" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Price" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Status" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Association Name="Headerorder_Detailorder" Member="Headerorder" ThisKey="Orderid" OtherKey="OrderID" Type="Headerorder" IsForeignKey="true" />
+      <Association Name="Msmenu_Detailorder" Member="Msmenu" ThisKey="Menuid" OtherKey="MenuID" Type="Msmenu" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Review" Member="Reviews">
+    <Type Name="Review">
+      <Column Name="Reviewid" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Orderid" Type="System.String" DbType="NChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="Menuid" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Rating" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Note" Type="System.String" DbType="Text NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="Photo" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Date" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Association Name="Headerorder_Review" Member="Headerorder" ThisKey="Orderid" OtherKey="OrderID" Type="Headerorder" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DetailPackage" Member="DetailPackages">
+    <Type Name="DetailPackage">
+      <Column Name="DetailPackageID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="HeaderPackageID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Menuid" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Qty" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="HeaderPackage_DetailPackage" Member="HeaderPackage" ThisKey="HeaderPackageID" OtherKey="HeaderPackageID" Type="HeaderPackage" IsForeignKey="true" />
+      <Association Name="Msmenu_DetailPackage" Member="Msmenu" ThisKey="Menuid" OtherKey="MenuID" Type="Msmenu" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Headerorder" Member="Headerorders">
+    <Type Name="Headerorder">
+      <Column Name="OrderID" Type="System.String" DbType="NChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Employeeid" Type="System.String" DbType="NChar(6) NOT NULL" CanBeNull="false" />
+      <Column Name="Memberid" Type="System.String" DbType="NChar(8) NOT NULL" CanBeNull="false" />
+      <Column Name="Date" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="Payment" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="bank" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CardNumber" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Association Name="Headerorder_Detailorder" Member="Detailorders" ThisKey="OrderID" OtherKey="Orderid" Type="Detailorder" />
+      <Association Name="Headerorder_Review" Member="Reviews" ThisKey="OrderID" OtherKey="Orderid" Type="Review" />
+      <Association Name="Msemployee_Headerorder" Member="Msemployee" ThisKey="Employeeid" OtherKey="EmployeeID" Type="Msemployee" IsForeignKey="true" />
+      <Association Name="Msmember_Headerorder" Member="Msmember" ThisKey="Memberid" OtherKey="MemberID" Type="Msmember" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.HeaderPackage" Member="HeaderPackages">
+    <Type Name="HeaderPackage">
+      <Column Name="HeaderPackageID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="CountMeat" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CountVegetables" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Price" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="MinOrder" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="HeaderPackage_DetailPackage" Member="DetailPackages" ThisKey="HeaderPackageID" OtherKey="HeaderPackageID" Type="DetailPackage" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Msemployee" Member="Msemployees">
+    <Type Name="Msemployee">
+      <Column Name="EmployeeID" Type="System.String" DbType="NChar(6) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Email" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Password" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Handphone" Type="System.String" DbType="NVarChar(13) NOT NULL" CanBeNull="false" />
+      <Column Name="Position" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="Msemployee_Headerorder" Member="Headerorders" ThisKey="EmployeeID" OtherKey="Employeeid" Type="Headerorder" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Msmember" Member="Msmembers">
+    <Type Name="Msmember">
+      <Column Name="MemberID" Type="System.String" DbType="NChar(8) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Email" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Handphone" Type="System.String" DbType="NVarChar(13) NOT NULL" CanBeNull="false" />
+      <Column Name="JoinDate" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Association Name="Msmember_Headerorder" Member="Headerorders" ThisKey="MemberID" OtherKey="Memberid" Type="Headerorder" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Msmenu" Member="Msmenus">
+    <Type Name="Msmenu">
+      <Column Name="MenuID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Price" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Photo" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Category" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Association Name="Msmenu_Detailorder" Member="Detailorders" ThisKey="MenuID" OtherKey="Menuid" Type="Detailorder" />
+      <Association Name="Msmenu_DetailPackage" Member="DetailPackages" ThisKey="MenuID" OtherKey="Menuid" Type="DetailPackage" />
+    </Type>
+  </Table>
+</Database>

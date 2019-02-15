@@ -1,0 +1,491 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FD91A680-98F8-4504-9F66-0671AA62E8C6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>WindowsApp1.My.MyApplication</StartupObject>
+    <RootNamespace>WindowsApp1</RootNamespace>
+    <AssemblyName>WindowsApp1</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>WindowsApp1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>WindowsApp1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="1FrmWel.Designer.vb">
+      <DependentUpon>1FrmWel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="1FrmWel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1FrmLogin.Designer.vb">
+      <DependentUpon>1FrmLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="1FrmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1FrmMLogin.Designer.vb">
+      <DependentUpon>1FrmMLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="1FrmMLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2FrmCashierNav.Designer.vb">
+      <DependentUpon>2FrmCashierNav.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2FrmCashierNav.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2FrmChangePassword.Designer.vb">
+      <DependentUpon>2FrmChangePassword.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2FrmChangePassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2FrmChefNav.Designer.vb">
+      <DependentUpon>2FrmChefNav.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2FrmChefNav.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2FrmAdminNav.Designer.vb">
+      <DependentUpon>2FrmAdminNav.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2FrmAdminNav.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="3FormManageEmployee.Designer.vb">
+      <DependentUpon>3FormManageEmployee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="3FormManageEmployee.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Connection.vb" />
+    <Compile Include="3FormManageMember.Designer.vb">
+      <DependentUpon>3FormManageMember.vb</DependentUpon>
+    </Compile>
+    <Compile Include="3FormManageMember.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="3FormManageMenu.Designer.vb">
+      <DependentUpon>3FormManageMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="3FormManageMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="4.FormOrder.Designer.vb">
+      <DependentUpon>4.FormOrder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="4.FormOrder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="4FormPay.Designer.vb">
+      <DependentUpon>4FormPay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="4FormPay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="4.FormVord.Designer.vb">
+      <DependentUpon>4.FormVord.vb</DependentUpon>
+    </Compile>
+    <Compile Include="4.FormVord.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="4FormVPay.Designer.vb">
+      <DependentUpon>4FormVPay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="4FormVPay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="4FormMemberNav.Designer.vb">
+      <DependentUpon>4FormMemberNav.vb</DependentUpon>
+    </Compile>
+    <Compile Include="4FormMemberNav.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2FrmMemberSignUp.Designer.vb">
+      <DependentUpon>2FrmMemberSignUp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2FrmMemberSignUp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="5.FrmMvord.Designer.vb">
+      <DependentUpon>5.FrmMvord.vb</DependentUpon>
+    </Compile>
+    <Compile Include="5.FrmMvord.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SMKRestorantDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SMKRestorantDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SMKRestorantDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SMKRestorantDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SMKRestorantDataSet10.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SMKRestorantDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SMKRestorantDataSet11.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SMKRestorantDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SMKRestorantDataSet12.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SMKRestorantDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SMKRestorantDataSet13.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SMKRestorantDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SMKRestorantDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SMKRestorantDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SMKRestorantDataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SMKRestorantDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SMKRestorantDataSet4.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SMKRestorantDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SMKRestorantDataSet5.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SMKRestorantDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SMKRestorantDataSet6.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SMKRestorantDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SMKRestorantDataSet7.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SMKRestorantDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SMKRestorantDataSet8.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SMKRestorantDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SMKRestorantDataSet9.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SMKRestorantDataSet9.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="1FrmWel.resx">
+      <DependentUpon>1FrmWel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="1FrmLogin.resx">
+      <DependentUpon>1FrmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="1FrmMLogin.resx">
+      <DependentUpon>1FrmMLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2FrmCashierNav.resx">
+      <DependentUpon>2FrmCashierNav.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2FrmChangePassword.resx">
+      <DependentUpon>2FrmChangePassword.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2FrmChefNav.resx">
+      <DependentUpon>2FrmChefNav.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2FrmAdminNav.resx">
+      <DependentUpon>2FrmAdminNav.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3FormManageEmployee.resx">
+      <DependentUpon>3FormManageEmployee.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3FormManageMember.resx">
+      <DependentUpon>3FormManageMember.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3FormManageMenu.resx">
+      <DependentUpon>3FormManageMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="4.FormOrder.resx">
+      <DependentUpon>4.FormOrder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="4.FormVord.resx">
+      <DependentUpon>4.FormVord.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="4FormMemberNav.resx">
+      <DependentUpon>4FormMemberNav.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="4FormPay.resx">
+      <DependentUpon>4FormPay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="4FormVPay.resx">
+      <DependentUpon>4FormVPay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2FrmMemberSignUp.resx">
+      <DependentUpon>2FrmMemberSignUp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="5.FrmMvord.resx">
+      <DependentUpon>5.FrmMvord.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="SMKRestorantDataSet.xsc">
+      <DependentUpon>SMKRestorantDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SMKRestorantDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SMKRestorantDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SMKRestorantDataSet.xss">
+      <DependentUpon>SMKRestorantDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SMKRestorantDataSet1.xsc">
+      <DependentUpon>SMKRestorantDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="SMKRestorantDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SMKRestorantDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SMKRestorantDataSet1.xss">
+      <DependentUpon>SMKRestorantDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="SMKRestorantDataSet10.xsc">
+      <DependentUpon>SMKRestorantDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="SMKRestorantDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SMKRestorantDataSet10.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SMKRestorantDataSet10.xss">
+      <DependentUpon>SMKRestorantDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="SMKRestorantDataSet11.xsc">
+      <DependentUpon>SMKRestorantDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="SMKRestorantDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SMKRestorantDataSet11.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SMKRestorantDataSet11.xss">
+      <DependentUpon>SMKRestorantDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="SMKRestorantDataSet12.xsc">
+      <DependentUpon>SMKRestorantDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="SMKRestorantDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SMKRestorantDataSet12.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SMKRestorantDataSet12.xss">
+      <DependentUpon>SMKRestorantDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="SMKRestorantDataSet13.xsc">
+      <DependentUpon>SMKRestorantDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="SMKRestorantDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SMKRestorantDataSet13.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SMKRestorantDataSet13.xss">
+      <DependentUpon>SMKRestorantDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="SMKRestorantDataSet2.xsc">
+      <DependentUpon>SMKRestorantDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="SMKRestorantDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SMKRestorantDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SMKRestorantDataSet2.xss">
+      <DependentUpon>SMKRestorantDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="SMKRestorantDataSet3.xsc">
+      <DependentUpon>SMKRestorantDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="SMKRestorantDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SMKRestorantDataSet3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SMKRestorantDataSet3.xss">
+      <DependentUpon>SMKRestorantDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="SMKRestorantDataSet4.xsc">
+      <DependentUpon>SMKRestorantDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="SMKRestorantDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SMKRestorantDataSet4.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SMKRestorantDataSet4.xss">
+      <DependentUpon>SMKRestorantDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="SMKRestorantDataSet5.xsc">
+      <DependentUpon>SMKRestorantDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="SMKRestorantDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SMKRestorantDataSet5.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SMKRestorantDataSet5.xss">
+      <DependentUpon>SMKRestorantDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="SMKRestorantDataSet6.xsc">
+      <DependentUpon>SMKRestorantDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="SMKRestorantDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SMKRestorantDataSet6.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SMKRestorantDataSet6.xss">
+      <DependentUpon>SMKRestorantDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="SMKRestorantDataSet7.xsc">
+      <DependentUpon>SMKRestorantDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="SMKRestorantDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SMKRestorantDataSet7.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SMKRestorantDataSet7.xss">
+      <DependentUpon>SMKRestorantDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="SMKRestorantDataSet8.xsc">
+      <DependentUpon>SMKRestorantDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="SMKRestorantDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SMKRestorantDataSet8.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SMKRestorantDataSet8.xss">
+      <DependentUpon>SMKRestorantDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="SMKRestorantDataSet9.xsc">
+      <DependentUpon>SMKRestorantDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="SMKRestorantDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SMKRestorantDataSet9.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SMKRestorantDataSet9.xss">
+      <DependentUpon>SMKRestorantDataSet9.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
